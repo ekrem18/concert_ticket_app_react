@@ -23,7 +23,7 @@ export const appointmentData = [
     {
       id: 4,
       name: "Kobra Murat",
-      dep: "Her Telden",
+      dep: "Ethnic Music",
       img: "./img/kobra.jpg",
     },
     {

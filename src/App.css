@@ -1,12 +1,16 @@
 
-
+.background{
+  background-image: url(../public/img/bg.jpg);
+  object-fit:cover;
+  background-repeat: no-repeat;
+}
 .doctor-img {
     transition: transform 0.5s;
     border-radius: 1rem;
     max-height: 180px;
   }
   .doctor-img:hover {
-    transform: scale(1.05);
+    transform: scale(1.20);
     border: 2px solid rgb(234, 0, 255);
     cursor: pointer;
   }
@@ -19,16 +23,16 @@
     padding: 1rem;
     margin-bottom: 1rem;
     text-align: start;
-    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    background-image:  linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);
     position: relative;
-    box-shadow: 0px 3px 3px rgba(0 0, 0, 0.3);
+    box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px;
   }
   
   .consulted {
     border-left: 1rem solid rgb(166, 18, 189);
   }
   .consulted::after {
-    content: "CONSULTED";
+    content: "HAD FUN";
     background-color: rgb(166, 18, 189);
     color: white;
     font-size: 2rem;
@@ -40,3 +44,6 @@
     transform: translate(-50%, -50%);
   }
   
+  .dancing{
+    border-radius: 50;
+  }

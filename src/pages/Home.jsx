@@ -9,9 +9,9 @@ const Home = () => {
 
   console.log(appointments)
   return (
-    <main className="text-center mt-2">
+    <main className="background text-center mt-2">
       <div>
-        <img src="../../../img/speakers.png" alt="" width={1200}/>
+        <img src="../../../img/speakers.png" alt="" width={1200} />
       </div>
       <Doctors apps={appointments} setApps={setAppointments} />
       <AppointmentList apps={appointments} setApps={setAppointments} />
