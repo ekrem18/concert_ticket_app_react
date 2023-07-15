@@ -10,7 +10,9 @@ const Home = () => {
   console.log(appointments)
   return (
     <main className="text-center mt-2">
-      <h1 className="display-5 text-danger">CLARUS HOSPITAL</h1>
+      <div>
+        <img src="../../../img/speakers.png" alt="" width={1200}/>
+      </div>
       <Doctors apps={appointments} setApps={setAppointments} />
       <AppointmentList apps={appointments} setApps={setAppointments} />
     </main>

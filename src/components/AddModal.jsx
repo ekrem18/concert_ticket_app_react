@@ -26,12 +26,12 @@ function AddModal({ show, handleClose, apps, setApps, drName }) {
     <>
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
-          <Modal.Title>Appointment for {drName}</Modal.Title>
+          <Modal.Title>Ticket for {drName}</Modal.Title>
         </Modal.Header>
         <Modal.Body>
           <Form onSubmit={handleSubmit}>
             <Form.Group className="mb-3" controlId="name">
-              <Form.Label>Patient Name</Form.Label>
+              <Form.Label>Your Name</Form.Label>
               <Form.Control
                 type="text"
                 placeholder="Enter name"

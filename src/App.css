@@ -1,13 +1,13 @@
-/*? Global Stlye for App */
+
 
 .doctor-img {
     transition: transform 0.5s;
     border-radius: 1rem;
-    max-height: 130px;
+    max-height: 180px;
   }
   .doctor-img:hover {
     transform: scale(1.05);
-    border: 2px solid red;
+    border: 2px solid rgb(234, 0, 255);
     cursor: pointer;
   }
   

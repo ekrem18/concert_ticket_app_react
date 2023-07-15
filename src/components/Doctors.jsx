@@ -13,10 +13,11 @@ const Doctors = ({ apps, setApps }) => {
   return (
     <Container className="p-2">
       <h3 className="display-6 mb-3" style={{ color: "rgb(166, 18, 189)" }}>
-        Our Doctors
+      Esteemed Artists of Ours
       </h3>
+      <h5 className="mb-4">Please Choose the Concert You Would Like to Attend</h5>
 
-      <Row className="justify-content-center">
+      <Row className="justify-content-center mb-5">
         {doctorData.map(({ id, img, dep, name }) => (
           <Col xs={6} sm={4} md={3} key={id}>
             <img

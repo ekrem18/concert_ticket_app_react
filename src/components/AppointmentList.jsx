@@ -21,9 +21,9 @@ const AppointmentList = ({ apps, setApps }) => {
   return (
     <Container className="p-2">
       <h3 className="display-6 mb-2" style={{ color: "rgb(166, 18, 189)" }}>
-        Appointment List
+        Your Tickets
       </h3>
-      {apps.length < 1 && <img src="./img/appointment.jpg" width="70%" />}
+      {apps.length < 1 && <img src="./img/dancing.avif" width="50%" />}
 
       {apps.map(({ id, patient, consulted, doctor, day }) => (
         <div
