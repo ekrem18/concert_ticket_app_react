@@ -9,9 +9,7 @@ const Doctors = ({ apps, setApps }) => {
   const [show, setShow] = useState(false)
   const [drName, setDrName] = useState("")
 
-  // const handleImgClick = () => {
-  //   setShow(true)
-  // }
+
   return (
     <Container className="p-2">
       <h3 className="display-6 mb-3" style={{ color: "rgb(166, 18, 189)" }}>
